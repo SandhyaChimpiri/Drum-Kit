@@ -1,0 +1,81 @@
+*{
+    margin:0;
+}
+
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2015/09/29/15/12/stars-964022_1280.png);
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+   
+}
+
+.key{
+    height:9vh;
+    width:9vh;
+    background-color:rgba(0,0,0, 0.8);
+    color:rgb(251, 247, 0);
+    font-size: 25px;
+    border: solid black 2px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    transition: 0.2s;
+}
+
+#bglayer{
+    height:100vh;
+    width:100%;
+    background-color: rgba(0,0,0, 0.5);
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    height:100vh;
+    width:120vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#a_key{
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/06/22/55/dark-2597228_640.jpg);
+    
+}
+#s_key{
+    background-image: url(https://cdn.pixabay.com/photo/2019/03/08/21/13/vinyl-record-4043223_640.jpg);
+}
+#d_key{
+    background-image: url(https://cdn.pixabay.com/photo/2015/11/06/15/50/drum-1029201_640.jpg);
+    
+}
+#f_key{
+    background-image: url(https://cdn.pixabay.com/photo/2021/12/13/21/43/drummer-6869168_1280.jpg);
+}
+#g_key{
+    background-image: url(https://cdn.pixabay.com/photo/2017/06/15/21/17/microphone-2406795_640.jpg);
+}
+#h_key{
+    background-image: url(https://cdn.pixabay.com/photo/2023/04/03/12/59/crowd-7896788_640.jpg);
+}
+#j_key{
+    background-image: url(https://cdn.pixabay.com/photo/2020/01/24/21/06/snare-drum-4791192_640.jpg);
+}
+#k_key{
+    background-image: url(https://cdn.pixabay.com/photo/2017/06/27/21/01/drums-2448825_640.jpg);
+}
+#l_key{
+    background-image: url(https://cdn.pixabay.com/photo/2017/06/21/22/40/guitar-2428921_640.jpg);
+}
+
+.active{
+    border-color: whitesmoke;
+    box-shadow: 0px 0px 30px darkgoldenrod;
+    transform: 1.2;
+}
+
+
+
